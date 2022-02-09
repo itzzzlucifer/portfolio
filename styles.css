@@ -40,8 +40,6 @@ a{
     font-family:'Yellowtail';
     font-size:1em;
 }
-#nav5{
-}
 #get_in_touch{
     background-color: lawngreen;
     text-align:center;
@@ -54,13 +52,13 @@ a{
     color:white;
     margin-top:25vw;
     z-index:2;
+    font-size:7vw;
 }
 q{
-    font-size:7vw;
     font-family:'Bebas Neue';
 }
 #cite1{
-    font-size:2em;
+    font-size:0.25em;
     font-family:'Yellowtail';
     margin-left:50vw;
 }
@@ -73,13 +71,12 @@ q{
 }
 #experience{
     color:#ffffff;
-    font-size:1.5vw;
+    font-size:1.5em;
     font-family:'Jost';
     padding:3em;
     text-align:center;
 }
 h4{
-    font-size:0.75em;
     color:rgb(110, 106, 106);
     text-align:center;
 }
@@ -101,5 +98,19 @@ h4{
     }
     #nav_container{
         font-size:2.2vw;
+    }
+    .company_img{
+        height:2em;
+        width:4em;
+    }
+    .company{
+        height:2em;
+        width:4em;
+    }
+    #quote{
+        font-size:3rem;
+    }
+    #cite1{
+        font-size:2rem;
     }
 }
