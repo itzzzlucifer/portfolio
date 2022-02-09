@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    background-color: #000000;
+    font-family:'poppins';
+}
+#wave_top1{
+    position:fixed;
+    top:0;
+    z-index:0;
+}
+#wave_top2{
+    position:absolute;
+    top:5vw;
+    z-index:-1;
+}
+#nav_container{
+    color:black;
+    position:fixed;
+    top:0;
+    z-index:1;
+    font-family: 'Poppins';
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    width:100%;
+    align-items:center;
+    font-size:1.5vw;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#navmid{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:15em;
+}
+#nav1{
+    font-family:'Yellowtail';
+    font-size:1em;
+}
+#nav5{
+}
+#get_in_touch{
+    background-color: lawngreen;
+    text-align:center;
+    padding:0 0.5em;
+    border-radius:20px;
+               /*h-offset v-offset blur spread color */
+    box-shadow: 0.25em 0.125em 0.5em 0 #262626;
+}
+#quote{
+    color:white;
+    margin-top:25vw;
+    z-index:2;
+}
+q{
+    font-size:7vw;
+    font-family:'Bebas Neue';
+}
+#cite1{
+    font-size:2em;
+    font-family:'Yellowtail';
+    margin-left:50vw;
+}
+#intro{
+    color:white;
+    font-size:1.5em;
+    font-family:'Jost';
+    padding:3em;
+    text-align:left;
+}
+#experience{
+    color:#ffffff;
+    font-size:1.5vw;
+    font-family:'Jost';
+    padding:3em;
+    text-align:center;
+}
+h4{
+    font-size:0.75em;
+    color:rgb(110, 106, 106);
+    text-align:center;
+}
+#companies{
+    display:flex;
+    justify-content:center;
+}
+.company_img{
+    height:5em;
+    width:9.5em;
+}
+.company{
+    height:5em;
+    width:10em;
+}
+@media screen and (max-width:600px) and (orientation:portrait){
+    #wave_top2{
+        top:1em;
+    }
+    #nav_container{
+        font-size:2.2vw;
+    }
+}
