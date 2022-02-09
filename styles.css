@@ -64,14 +64,14 @@ q{
 }
 #intro{
     color:white;
-    font-size:1.5em;
+    font-size:3.5vw;
     font-family:'Jost';
-    padding:3em;
+    padding:3.5em;
     text-align:left;
 }
 #experience{
     color:#ffffff;
-    font-size:1.5em;
+    font-size:3.5vw;
     font-family:'Jost';
     padding:3em;
     text-align:center;
@@ -85,12 +85,12 @@ h4{
     justify-content:center;
 }
 .company_img{
-    height:5em;
-    width:9.5em;
+    height:2.5em;
+    width:5em;
 }
 .company{
-    height:5em;
-    width:10em;
+    height:2.5em;
+    width:5em;
 }
 @media screen and (max-width:600px) and (orientation:portrait){
     #wave_top2{
@@ -100,17 +100,32 @@ h4{
         font-size:2.2vw;
     }
     .company_img{
-        height:2em;
-        width:4em;
+        height:1.5em;
+        width:3em;
     }
     .company{
-        height:2em;
-        width:4em;
+        height:1.5em;
+        width:3em;
     }
     #quote{
-        font-size:3rem;
+        font-size:11vw;
     }
     #cite1{
-        font-size:2rem;
+        font-size:0.5em;
+    }
+    #intro{
+        font-size:5vw;
+    }
+    #experience{
+        font-size:5vw;
+    }
+}
+@media screen and (min-width:1500px) and (orientation:landscape){
+    #intro, #experience{
+        font-size: 2vw;
+    }
+    .company_img, .company{
+        height:5em;
+        width:10em;
     }
 }
